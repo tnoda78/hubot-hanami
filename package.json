@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/tnoda78/hubot-hanami/issues"
   },
-  "homepage": "https://github.com/tnoda78/hubot-hanami#readme"
+  "homepage": "https://github.com/tnoda78/hubot-hanami#readme",
+  "dependencies": {
+    "cheerio-httpcli": "^0.3.8"
+  }
 }
