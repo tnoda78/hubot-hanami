@@ -1,0 +1,23 @@
+{
+  "name": "hubot-hanami",
+  "version": "0.0.1",
+  "description": "HANAMI information on hubot",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnoda78/hubot-hanami.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-script",
+    "hanami"
+  ],
+  "author": "Tomoya Noda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tnoda78/hubot-hanami/issues"
+  },
+  "homepage": "https://github.com/tnoda78/hubot-hanami#readme"
+}
