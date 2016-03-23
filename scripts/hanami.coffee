@@ -31,9 +31,9 @@ module.exports = (robot) ->
         if err
           msg.send("error.")
         else
-          img_url = $(".statusValue dd img").attr("src")
-          place = $(".floatL h1").text()
-          msg.send "#{place}の開花状況\n#{img_url}\n\n#{url}"
+          status = $("li.location span.flower").text()
+          place = $(".hdg_inner h1").text()
+          msg.send "#{place}\n#{status}\n\n#{url}"
       )
 
 getUrl = (msg, id) ->
